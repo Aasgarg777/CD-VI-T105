@@ -1,0 +1,6 @@
+big
+small
+red
+blue
+quick
+lazy
