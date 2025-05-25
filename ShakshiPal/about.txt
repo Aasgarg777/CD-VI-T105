@@ -1,0 +1,19 @@
+This project is a web-based NLP Abstract Syntax Tree (AST) Visualizer that allows users to input simple English sentences and visualize their syntactic structure as an AST.
+
+🔍 Key Features:
+
+ Lexical Analysis: Tokenizes the sentence and assigns basic Part-of-Speech (POS) tags.
+
+ AST Generation: Builds a hierarchical AST structure from POS-tagged tokens.
+
+ Interactive Visualization: AST is dynamically rendered on a web canvas.
+
+ Grammar Parsing: Detects noun phrases, verb phrases, and prepositional phrases.
+
+💻 Tech Stack:
+
+Frontend: HTML, CSS, JavaScript (Canvas-based drawing)
+
+Backend: Python + Flask
+
+Custom Modules: lexer.py and parser.py for NLP logic
