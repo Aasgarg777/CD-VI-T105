@@ -4,10 +4,8 @@
 This project aims to convert English text into an Abstract Syntax Tree (AST) using lexical parsing techniques. It supports both a Tkinter-based desktop GUI and a Flask-based web interface.
 
 ## Current Structure
-- 'Compiler' - Contains the combined project 
-- `gui/` — Contains desktop and web app interfaces.
-- `pos_tags/` — Text files for part-of-speech tagging.
-- Other scripts implement parsing and visualization logic.
+- 'Compiler' - Contains the combined final project 
+
 
 ## Features
 - Dual interface support: desktop (Tkinter) and web (Flask).
