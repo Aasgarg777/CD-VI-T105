@@ -1,0 +1,7 @@
+in
+on
+under
+above
+beside
+with
+to
