@@ -1,1 +1,72 @@
 
+# About the Project: From Text to Tree - A Lexical Parsing Approach
+
+This project transforms input English text into an Abstract Syntax Tree (AST) using lexical and syntactic parsing. It includes both a desktop GUI (Tkinter) and a web interface (Flask).
+
+---
+
+
+
+Compiler/
+├── gui/app.py
+├── lexer.py
+├── parser.py
+├── templates/index.html
+└── static/style.css, script.js
+
+
+### 🔧 Core Python Files
+
+1. **main1.py**
+   - The main execution script that integrates the lexer and parser.
+   - Handles the flow from input to AST generation and passes output to the visualizer.
+
+2. **lexer.py**
+   - Performs lexical analysis (tokenization and part-of-speech tagging).
+   - Uses files like `noun.txt`, `verb.txt`, etc., for identifying POS categories.
+   - Prepares structured tokens for parsing.
+
+3. **parser.py**
+   - Parses tokens from the lexer to build a syntactic structure.
+   - Implements logic to construct the Abstract Syntax Tree (AST).
+   - May use recursive methods to define grammar rules.
+
+---
+
+### 📁 Folder Structure
+
+- **/gui/**
+  - Contains scripts for graphical user interfaces.
+    - `app.py`: Tkinter-based desktop application
+
+
+- **/pos_tags/**
+  - Stores part-of-speech definition files:
+    - `noun.txt`, `verb.txt`, `adjective.txt`, etc.
+  - These are referenced by `lexer.py` to tag input text.
+
+- **/static/**
+  - Contains static files used by the web interface.
+    - `style.css`: Styles for the web app.
+    - `script.js`: JavaScript for interactivity (e.g., animations, button actions).
+
+- **/templates/**
+  - Stores HTML templates for Flask.
+    - `index.html`: Main interface page of the web app.
+
+---
+
+### 📄 Other Files
+
+- **README.md**
+  - Project introduction, setup instructions, usage guide, and feature list.
+
+- **about.txt**
+  - (This file) Describes the role and functionality of all major components of the project.
+
+---
+
+### 📌 Summary
+Each component is modular, making the project scalable and maintainable. Together, they form a complete pipeline from plain text input to syntactic tree output.
+
+
